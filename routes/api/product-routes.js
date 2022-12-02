@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
-// get all products
+// the /api/products route
 router.get('/', (req, res) => {
   Product.findAll({
     attributes: ['id', 'product_name', 'price', 'stock'],
