@@ -20,17 +20,16 @@
   To install: Clone the repository on your local machine and run 'npm install' to install all the node_modules.
 
   You will need to create a .env file in the main directory to pass your credentials to login to mysql. it should include the following
-DB_NAME='ecommerce_db'
-DB_USER=''
-DB_PASSWORD=''
+* DB_NAME='ecommerce_db'
+* DB_USER=''
+* DB_PASSWORD=''
 Just fill in your username and password.
 
 you will then need to source the schema.sql file with mysql to setup the initial database.
 seed the database by running npm run seed in the command line.
 start the server with npm start
   ## [Usage](#table-of-contents)
-once installed you can just run npm start in the command line to start the server. 
- 
+once installed you can just run npm start in the command line to start the server.  
   
   ## [Links](#table-of-contents)
 
